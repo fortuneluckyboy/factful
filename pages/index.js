@@ -23,90 +23,35 @@ export default function Home() {
 {/* This example requires Tailwind CSS v2.0+ */}
 
 
-{/* <div className="relative text-gray-900 mb-2">
-  <div className="absolute inset-0">
-    <img className="w-full h-full object-cover " src="img/spiderfarmerstart2.jpg" alt />
-    <div className="absolute inset-0" style={{mixBlendMode: 'multiply'}} aria-hidden="true" />
-  </div>
-  <div className="relative text-white max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-  <p className=" font-extrabold tracking-tight sm:text-5xl lg:text-6xl">真実を追求する</p>
-  <p className=" font-extrabold tracking-tight sm:text-5xl lg:text-6xl">唯一の植物用LEDライト</p>
-  <p className=" font-extrabold tracking-tight sm:text-5xl lg:text-6xl">販売サイト</p>
-　 <h1 className="text-6xl font-extrabold text-white tracking-tight sm:text-8xl lg:text-8xl">FACTFUL</h1>
-  </div>
-</div> */}
-
-</>
-
 <>
-{/*
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-// ...
-require('@tailwindcss/typography'),
-require('@tailwindcss/aspect-ratio'),
-    ]
-  }
-  ```
-*/}
-<div className=" mb-2 bg-black overflow-hidden">
-  <div className="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-    <div className="hidden lg:block bg-gray-50 absolute top-0 bottom-0 left-3/4 w-screen" />
-    <div className="mx-auto text-base max-w-prose lg:grid lg:grid-cols-2 lg:gap-8 lg:max-w-none">
-      <div>
-        <h2 className="text-base text-red-600 font-semibold tracking-wide uppercase">未来を想像するライト販売会社</h2>
-        <h1 className="mt-2 sm:text-8xl lg:text-8xlleading-8 font-extrabold tracking-tight text-white ">FACTFUL</h1>
-      </div>
-    </div>
-    <div className="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
-      <div className="relative lg:row-start-1 lg:col-start-2">
-        <svg className="hidden lg:block absolute top-0 right-0 -mt-20 -mr-20" width={404} height={384} fill="none" viewBox="0 0 404 384" aria-hidden="true">
-          <defs>
-            <pattern id="de316486-4a29-4312-bdfc-fbce2132a2c1" x={0} y={0} width={20} height={20} patternUnits="userSpaceOnUse">
-              <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
-            </pattern>
-          </defs>
-          <rect width={404} height={384} fill="url(#de316486-4a29-4312-bdfc-fbce2132a2c1)" />
-        </svg>
-        <div className="relative text-base mx-auto max-w-prose lg:max-w-none">
-          <figure>
-            <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-              <img className="rounded-lg shadow-lg object-cover object-center" src="img/lightonetop4.png" width={1184} height={1376} />
-            </div>
-            
-          </figure>
-        </div>
-      </div>
-      <div className="mt-8 lg:mt-0">
-        <div className="text-base max-w-prose mx-auto lg:max-w-none">
-          <p className="text-lg text-gray-500">Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.</p>
-        </div>
-        <div className="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
-          
-        </div>
-      </div>
-    </div>
+{/* This example requires Tailwind CSS v2.0+ */}
+<div className="relative bg-gradient-to-r from-green-400 to-blue-500">
+  <div className="absolute inset-0">
+    <img className="w-full h-full object-cover" src="img/forest.jpg" alt />
+    <div className="absolute inset-0 bg-green-600" style={{mixBlendMode: 'multiply'}} aria-hidden="true" />
+  </div>
+  <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
+  <h2 className="text-4xl text-center font-extrabold tracking-tight text-white sm:text-4xl lg:text-4xl">真実を追求する植物用LEDライト専門販売所</h2>
+
+    <h1 className="text-6xl text-center font-extrabold tracking-tight text-white sm:text-8xl lg:text-8xl">FACTFUL</h1>
+    <p className="mt-6 text-xl text-indigo-100 max-w-3xl"></p>
   </div>
 </div>
 </>
+</>
+
+
 <>
 {/* This example requires Tailwind CSS v2.0+ */}
-<div className="py-16 bg-black overflow-hidden lg:py-24">
+<div className="py-16 bg-gradient-to-b from-green-50 to-gray-900  overflow-hidden lg:py-24">
   <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
     <div className="relative mt-12 sm:mt-16 lg:mt-24">
       <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
         <div className="lg:col-start-2">
-          <h3 className="text-white text-2xl font-extrabold tracking-tight sm:text-3xl">
+          <h3 className="text-black text-2xl font-extrabold tracking-tight sm:text-3xl">
             世界の真実
           </h3>
-          <p className="mt-3 text-lg text-gray-50">
+          <p className="mt-3 text-lg text-gray-900">
           ご存知でしょうか。オランダは国土面積が九州と同程度にもかかわらす、農産物輸出額に関してはアメリカにつぐ世界第二位の額を誇ります。そこには他の国にはない強力なハウス栽培法が存在しました。
         </p>
           <p className="mt-3 text-lg text-gray-50">
@@ -155,11 +100,11 @@ require('@tailwindcss/aspect-ratio'),
       </div>
       <div className="mt-10 -mx-4 relative lg:mt-0" aria-hidden="true">
         <svg className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width={784} height={404} fill="none" viewBox="0 0 784 404">
-          <defs>
+          {/* <defs>
             <pattern id="ca9667ae-9f92-4be7-abcb-9e3d727f2941" x={0} y={0} width={20} height={20} patternUnits="userSpaceOnUse">
               <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
             </pattern>
-          </defs>
+          </defs> */}
           <rect width={784} height={404} fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
         </svg>
         <img className="relative rounded-lg mx-auto" width={490} src="img/greenhouse.jpg" alt />
@@ -204,18 +149,19 @@ require('@tailwindcss/aspect-ratio'),
       </div>
     </div>
   </div>
-</div>
-<div className="bg-black relative">
+  <div className=" relative">
   <br></br>
-  
+  <br></br>
       <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
         いざ新しい農業スタイルへの転換へ
       </h2>
-      <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-500">
+      <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-50">
       戦後の日本は何もない状況から一時は世界第２位の経済大国にまでのしあがりました。そして今我々は再度新たな武器を手に立ち上がる時なのです。ここに未来を変える最高の要素が準備されています。あとは前進あるのみです。
       </p>
       <br></br>
     </div>
+</div>
+
 </>
 
 <>
@@ -223,18 +169,110 @@ require('@tailwindcss/aspect-ratio'),
 {/* This example requires Tailwind CSS v2.0+ */}
 <div className="relative bg-indigo-800 mb-2 mt-2">
   <div className="absolute inset-0">
-    <img className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixqx=EqnZfs2epz&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&&sat=-100" alt />
+    <img className="w-full h-full object-cover" src="img/682.jpg" alt />
     <div className="absolute inset-0 bg-gray-500" style={{mixBlendMode: 'multiply'}} aria-hidden="true" />
   </div>
   <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 text-center lg:px-8">
     <h1 className="text-4xl font-extrabold tracking-tight text-white  sm:text-5xl lg:text-6xl">未来を変える二つのライトメーカー</h1>
     <p className="mt-6 text-xl text-white">低価格でありながらも最高品質。ぜひ一度ご確認ください</p>
-    <p className="mt-6 text-4xl text-white ">製品一覧へ</p>
+    <p className="mt-6 text-4xl text-white "></p>
     {/* <Link href="/product"><a> <p className="mt-6 text-4xl text-white ">→製品一覧へ</p></a></Link> */}
     {/* <Link href="/product3"><a> <p className="mt-6 text-4xl text-white ">→製品一覧へ</p></a></Link> */}
   </div>
 </div>
 </a></Link>
+</>
+<>
+{/* This example requires Tailwind CSS v2.0+ */}
+<div className="relative bg-white pt-16 pb-32 overflow-hidden">
+  <div className="relative">
+    <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+      <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
+        <div>
+          <div>
+            <span className="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
+              {/* Heroicon name: outline/inbox */}
+              <svg className="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
+              </svg>
+            </span>
+          </div>
+          <div className="mt-6">
+            <h2 className="text-7xl font-extrabold tracking-tight text-gray-900">
+              MARSHYDRO
+            </h2>
+            <p className="mt-4 text-lg text-gray-500">
+              Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.
+            </p>
+            <div className="mt-6">
+              <a href="#" className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yellow-500 hover:bg-indigo-700">
+                MARSHYDRO 製品一覧へ
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="mt-8 border-t border-gray-200 pt-6">
+          <blockquote>
+            <div>
+              <p className="text-base text-gray-500">
+                “Cras velit quis eros eget rhoncus lacus ultrices sed diam. Sit orci risus aenean curabitur donec aliquet. Mi venenatis in euismod ut.”
+              </p>
+            </div>
+            <footer className="mt-3">
+              <div className="flex items-center space-x-3">
+                <div className="flex-shrink-0">
+                  <img className="h-6 w-6 rounded-full" src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80" alt />
+                </div>
+                <div className="text-base font-medium text-gray-700">
+                  Marcia Hill, Digital Marketing Manager
+                </div>
+              </div>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+      <div className="mt-12 sm:mt-16 lg:mt-0">
+        <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+          <img className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="img/lights.jpg" alt="Inbox user interface" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div className="mt-24">
+    <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+      <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
+        <div>
+          <div>
+            <span className="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
+              {/* Heroicon name: outline/sparkles */}
+              <svg className="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+              </svg>
+            </span>
+          </div>
+          <div className="mt-6">
+            <h2 className="text-7xl font-extrabold tracking-tight text-gray-900">
+              SPIDERFARMER
+            </h2>
+            <p className="mt-4 text-lg text-gray-500">
+              Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus viverra dui tellus ornare pharetra.
+            </p>
+            <div className="mt-6">
+              <a href="#" className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-red-500 hover:bg-indigo-700">
+                SPIDERFARMER　製品一覧へ
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
+        <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+          <img className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="img/shiyourei.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </>
 <>
 {/* This example requires Tailwind CSS v2.0+ */}
@@ -414,147 +452,57 @@ require('@tailwindcss/aspect-ratio'),
         研究機関、農家、大学、さまざまな分野で活躍するLEDライトですが、お客様からも多大な感想をいただいております。
       </p>
     </div>
-    <div className="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
-      <div className="flex flex-col  shadow-lg overflow-hidden">
-        <div className="flex-shrink-0">
-          <img className="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixqx=EqnZfs2epz&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt />
+    <>
+{/* This example requires Tailwind CSS v2.0+ */}
+<section className="bg-purple-200">
+  <div className="max-w-7xl mx-auto md:grid md:grid-cols-2 md:px-6 lg:px-8">
+    <div className="py-12 px-4 sm:px-6 md:flex md:flex-col md:py-16 md:pl-0 md:pr-10 md:border-r md:border-indigo-900 lg:pr-16">
+      
+      <blockquote className="mt-6 md:flex-grow md:flex md:flex-col">
+        <div className="relative text-lg font-medium text-black md:flex-grow">
+          
+          <p className="relative">
+            大学研究用に一台購入しました。右も左もわからない状況でしたが、こまめに相談に乗っていただいたことと一台貸し出しいただいた製品が良かったことで購入を決定しました。
+          </p>
         </div>
-        <div className="flex-1 bg-white p-6 flex flex-col justify-between">
-          <div className="flex-1">
-            <p className="text-sm font-medium text-red-600">
-              <a href="#" className="hover:underline">
-                SP3000
-              </a>
-            </p>
-            <a href="#" className="block mt-2">
-              <p className="text-xl font-semibold text-gray-900">
-                大学研究用に使用しています。
-              </p>
-              <p className="mt-3 text-base text-gray-500">
-                大学での研究室用に購入にしました。どれにしようか悩みましたが、試験機を貸し出ししていただいたことで実際にどのようなものなのかを体験することができました。製品にも満足しています。
-              </p>
-            </a>
-          </div>
-          <div className="mt-6 flex items-center">
-            <div className="flex-shrink-0">
-              <a href="#">
-                <span className="sr-only">Roel Aufderehar</span>
-                <img className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixqx=EqnZfs2epz&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt />
-              </a>
+        <footer className="mt-8">
+          <div className="flex items-start">
+            <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
+              <img className="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixqx=EqnZfs2epz&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt />
             </div>
-            <div className="ml-3">
-              <p className="text-sm font-medium text-gray-900">
-                <a href="#" className="hover:underline">
-                  Roel Aufderehar
-                </a>
-              </p>
-              <div className="flex space-x-1 text-sm text-gray-500">
-                <time dateTime="2020-03-16">
-                  Mar 16, 2020
-                </time>
-                <span aria-hidden="true">
-                  ·
-                </span>
-                
-              </div>
+            <div className="ml-4">
+              <div className="text-base font-medium text-white">Judith Black</div>
+              <div className="text-base font-medium text-indigo-200">CEO, Tuple</div>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="flex flex-col  shadow-lg overflow-hidden">
-        <div className="flex-shrink-0">
-          <img className="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixqx=EqnZfs2epz&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt />
-        </div>
-        <div className="flex-1 bg-white p-6 flex flex-col justify-between">
-          <div className="flex-1">
-            <p className="text-sm font-medium text-green-600">
-              <a href="#" className="hover:underline">
-                SF2000
-              </a>
-            </p>
-            <a href="#" className="block mt-2">
-              <p className="text-xl font-semibold text-gray-900">
-                デイジーチェーン対応なのがいいですね
-              </p>
-              <p className="mt-3 text-base text-gray-500">
-                育てている観葉植物用に買ってみました。こういった植物用LEDライトを購入するのは初めてのことでわからないことだらけだったんですが、優しく教えていただき今回SF2000の購入を決めました。
-              </p>
-            </a>
-          </div>
-          <div className="mt-6 flex items-center">
-            <div className="flex-shrink-0">
-              <a href="#">
-                <span className="sr-only">Brenna Goyette</span>
-                <img className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixqx=EqnZfs2epz&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt />
-              </a>
-            </div>
-            <div className="ml-3">
-              <p className="text-sm font-medium text-gray-900">
-                <a href="#" className="hover:underline">
-                  Brenna Goyette
-                </a>
-              </p>
-              <div className="flex space-x-1 text-sm text-gray-500">
-                <time dateTime="2020-03-10">
-                  Mar 10, 2020
-                </time>
-                <span aria-hidden="true">
-                  ·
-                </span>
-                
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="flex flex-col shadow-lg overflow-hidden">
-        <div className="flex-shrink-0">
-          <img className="4/5 w-full object-cover" src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixqx=EqnZfs2epz&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt />
-        </div>
-        <div className="flex-1 bg-white p-6 flex flex-col justify-between">
-          <div className="flex-1">
-            <p className="text-sm text-center font-medium text-yellow-600">
-              <a href="#" className="hover:underline">
-                REVUE
-              </a>
-            </p>
-            <a href="#" className="block mt-2">
-              <p className="text-xl text-center font-semibold text-gray-900">
-                他にもたくさんのレビューをお客様からいただいております。
-              </p>
-              <br></br>
-              <p className="mt-3 text-base text-center text-gray-500">
-                レビューを確認する。
-              </p>
-            </a>
-          </div>
-          {/* <div className="mt-6 flex items-center">
-            <div className="flex-shrink-0">
-              <a href="#">
-                <span className="sr-only">Daniela Metz</span>
-                <img className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixqx=EqnZfs2epz&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt />
-              </a>
-            </div>
-            <div className="ml-3">
-              <p className="text-sm font-medium text-gray-900">
-                <a href="#" className="hover:underline">
-                  Daniela Metz
-                </a>
-              </p>
-              <div className="flex space-x-1 text-sm text-gray-500">
-                <time dateTime="2020-02-12">
-                  Feb 12, 2020
-                </time>
-                <span aria-hidden="true">
-                  ·
-                </span>
-                
-              </div>
-            </div>
-          </div> */}
-        </div>
-      </div>
+        </footer>
+      </blockquote>
     </div>
+    <div className="py-12 px-4 border-t-2 border-indigo-900 sm:px-6 md:py-16 md:pr-0 md:pl-10 md:border-t-0 md:border-l lg:pl-16">
+      
+      <blockquote className="mt-6 md:flex-grow md:flex md:flex-col">
+        <div className="relative text-lg font-medium text-black md:flex-grow">
+          
+          <p className="relative">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis. Nemo expedita voluptas culpa sapiente alias molestiae.
+          </p>
+        </div>
+        <footer className="mt-8">
+          <div className="flex items-start">
+            <div className="flex-shrink-0 inline-flex rounded-full border-2 border-white">
+              <img className="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixqx=EqnZfs2epz&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt />
+            </div>
+            <div className="ml-4">
+              <div className="text-base font-medium text-white">Joseph Rodriguez</div>
+              <div className="text-base font-medium text-indigo-200">CEO, Workcation</div>
+            </div>
+          </div>
+        </footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+</>
   </div>
 </div>
 </>
