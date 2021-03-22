@@ -14,7 +14,7 @@ export default function Home() {
       <>
       
    <header>
-     <div className="relative font-bold h-10 object-center text-left text-white rounded-xl bg-gray-900 pt-2 pl-6 mb-2">FACTFULL online
+     <div className="relative font-bold h-10 object-center text-left text-white rounded-xl bg-gray-900 pt-2 pl-6 mb-2">植物用LEDライト販売所　FACTFULL online
        
      </div>
    </header>
@@ -85,20 +85,7 @@ require('@tailwindcss/aspect-ratio'),
       </svg>
       <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
         <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
-          <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
-            <div className="flex items-center justify-between w-full md:w-auto">
-              
-              <div className="-mr-2 flex items-center md:hidden">
-                <button type="button" className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
-                  <span className="sr-only">Open main menu</span>
-                  {/* Heroicon name: outline/menu */}
-                  <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </div>
+         
           {/* <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
             <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Product</a>
             <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Features</a>
@@ -118,26 +105,7 @@ require('@tailwindcss/aspect-ratio'),
     From: "opacity-100 scale-100"
     To: "opacity-0 scale-95"
 */}
-      <div className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-        <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
-          <div className="px-5 pt-4 flex items-center justify-between">
-            <div>
-              <img className="h-8 w-auto" src="img/forest.jpg" alt />
-            </div>
-            <div className="-mr-2">
-              <button type="button" className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-                <span className="sr-only">Close main menu</span>
-                {/* Heroicon name: outline/x */}
-                <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-            </div>
-          </div>
-          
-          
-        </div>
-      </div>
+      
       <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
         <div className="sm:text-center lg:text-left">
           <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
@@ -299,7 +267,7 @@ require('@tailwindcss/aspect-ratio'),
       戦後の日本は何もない状況から世界第２位の経済大国にまでのしあがりました。そして我々は再度立ち上がる時にきています。
       </p>
       <br></br>
-      <p className="text-center pt-1 text-5xl leading-8 font-extrabold  text-white">ここに未来を変える二つのライトがあります。</p>
+      <p className="text-center pt-1 text-5xl  font-extrabold  text-white">ここに未来を変える二つのライトがあります。</p>
     <p className="mt-6 text-4xl text-white "></p>
     {/* <Link href="/product"><a> <p className="mt-6 text-4xl text-white ">→製品一覧へ</p></a></Link> */}
     {/* <Link href="/product3"><a> <p className="mt-6 text-4xl text-white ">→製品一覧へ</p></a></Link> */}
@@ -495,7 +463,7 @@ require('@tailwindcss/aspect-ratio'),
   </div>
   <div className="relative max-w-7xl mx-auto">
     <div className="text-center">
-      <h2 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
+      <h2 className="text-3xl tracking-tight font-extrabold text-blue-800 sm:text-4xl">
         お客様からの声
       </h2>
       <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
@@ -528,10 +496,7 @@ require('@tailwindcss/aspect-ratio'),
       <div className="hidden lg:block lg:flex-shrink-0">
         <img className="h-64 w-64 rounded-full xl:h-80 xl:w-80" src="img/cat.jpg" alt />
       </div>
-      <div className="relative lg:ml-10">
-        <svg className="absolute top-0 left-0 transform -translate-x-8 -translate-y-24 h-36 w-36 text-indigo-200 opacity-50" stroke="currentColor" fill="none" viewBox="0 0 144 144" aria-hidden="true">
-          <path strokeWidth={2} d="M41.485 15C17.753 31.753 1 59.208 1 89.455c0 24.664 14.891 39.09 32.109 39.09 16.287 0 28.386-13.03 28.386-28.387 0-15.356-10.703-26.524-24.663-26.524-2.792 0-6.515.465-7.446.93 2.327-15.821 17.218-34.435 32.11-43.742L41.485 15zm80.04 0c-23.268 16.753-40.02 44.208-40.02 74.455 0 24.664 14.891 39.09 32.109 39.09 15.822 0 28.386-13.03 28.386-28.387 0-15.356-11.168-26.524-25.129-26.524-2.792 0-6.049.465-6.98.93 2.327-15.821 16.753-34.435 31.644-43.742L121.525 15z" />
-        </svg>
+      <div className="relative lg:ml-10 rounded-lg bg-red-100 p-8">
         <blockquote className="relative">
           <div className="text-2xl leading-9 font-medium text-gray-900">
             <p>
@@ -544,16 +509,19 @@ require('@tailwindcss/aspect-ratio'),
                 <img className="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixqx=EqnZfs2epz&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt />
               </div>
               <div className="ml-4 lg:ml-0">
-                <div className="text-base font-medium text-gray-900">Judith Black</div>
-                <div className="text-base font-medium text-indigo-600">CEO, Tuple</div>
+                <div className="text-base font-medium text-gray-900">岡山大学</div>
+                <div className="text-base font-medium text-purple-600">CEO, Tuple</div>
               </div>
             </div>
           </footer>
         </blockquote>
       </div>
     </div>
+    
   </div>
 </section>
+<br></br>
+<div className="text-black text-3xl font-bold text-center">他の評価も確認する</div>
 </>
 </>
   </div>
