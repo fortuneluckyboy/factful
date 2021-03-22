@@ -13,8 +13,8 @@ export default function product() {
     <div className="relative max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
       <div className="hidden lg:block bg-green-500 absolute top-0 bottom-0 left-3/4 w-screen" />
       <div className="mx-auto text-base max-w-prose sm:text-6xl md:text-6xl lg:max-w-none">
-        <h2 className="text-base text-green-600 font-semibold tracking-wide sm:text-3xl uppercase">SPIDER FARMER</h2>
-        <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-6xl">SF2000</h3>
+        <h2 className="text-basen text-2xl text-green-600 font-semibold tracking-wide sm:text-3xl uppercase">SPIDER FARMER</h2>
+        <h3 className="mt-2 text-7xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-9xl">SF2000</h3>
       </div>
       <div className="mt-8 lg:grid lg:grid-cols-2 lg:gap-8 ">
         <div className="relative lg:row-start-1 lg:col-start-2">
@@ -29,7 +29,7 @@ export default function product() {
           <div className="relative text-base mx-auto max-w-prose lg:max-w-none">
             <figure>
               <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                <img className="rounded-lg shadow-lg object-cover object-center" src="img/SF2000top7.png" alt="Whitney leaning against a railing on a downtown street" width={1184} height={1376} />
+                <img className="rounded-lg shadow-lg object-cover object-center" src="img/sf2000top7.png" alt="Whitney leaning against a railing on a downtown street" width={1184} height={1376} />
               </div>
               <figcaption className="mt-3 flex text-sm text-gray-500">
                 {/* Heroicon name: solid/camera */}
@@ -56,9 +56,11 @@ export default function product() {
               <li>消費電力：202.3W±5%@AC120V 196.7W±5%@AC240V 196.6W±5%@AC277V</li>
               <li>サイズ：648mm x 268mm x 59mm\n3.07kg</li>
             </ul>
+            <div className="underline">
             <p className="font-bold">保証</p>
             <p>購入から三年間</p>
             <br></br>
+            </div>
             {/* <button class="block w-full text-center rounded-lg border border-transparent bg-gray-900 px-6 py-4 text-xl leading-6 font-medium text-white hover:bg-gray-300 " aria-describedby="tier-growth">購入する</button> */}
         </div>
       </div>
@@ -150,7 +152,7 @@ export default function product() {
         </h1>
         <p className="mt-8 text-xl text-gray-900 leading-8">白、赤色のLEDチップをさらに追加し、より自然な太陽光を実現。植物の光合成に不可欠な光エネルギーを、スムーズかつエコにお届けします。</p>
         <figure>
-          <img className=" w-900 h-900 rounded-lg shadow-lg " src="img/sf2000-IRrei.png" alt width={1310} height={873} />
+          <img className=" w-900 h-900 rounded-lg shadow-lg " src="img/sf2000-irrei.png" alt width={1310} height={873} />
           
         </figure>
       </div>
@@ -356,10 +358,10 @@ export default function product() {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="text-center">
         <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl lg:text-5xl">
-          Simple no-tricks pricing
+          絶対の自信を持ってお勧めします。
         </h2>
         <p className="mt-4 text-xl text-gray-600">
-          If you're not satisfied, contact us within the first 14 days and we'll send you a full refund.
+          もし製品に不具合、またはご満足いただけない場合、購入から１週間以内でしたら返金、返品対応させていただきます。
         </p>
       </div>
     </div>
@@ -371,15 +373,15 @@ export default function product() {
         <div className="max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex">
           <div className="flex-1 bg-white px-6 py-8 lg:p-12">
             <h3 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">
-              Lifetime Membership
+            　3年間の絶対保証
             </h3>
             <p className="mt-6 text-base text-gray-500">
-              Lorem ipsum dolor sit amet consect etur adipisicing elit. Itaque amet indis perferendis blanditiis repellendus etur quidem assumenda.
+              購入から三年内の製品保証付きとなっています。不具合等が発生した場合にはサポートセンターへご連絡いただけましたら製品の交換対応をさせていただきます。
             </p>
             <div className="mt-8">
               <div className="flex items-center">
                 <h4 className="flex-shrink-0 pr-4 bg-white text-sm tracking-wider font-semibold uppercase text-indigo-600">
-                  What's included
+                  当サイト内購入者のみの絶対特典
                 </h4>
                 <div className="flex-1 border-t-2 border-gray-200" />
               </div>
@@ -392,7 +394,7 @@ export default function product() {
                     </svg>
                   </div>
                   <p className="ml-3 text-sm text-gray-700">
-                    Private forum access
+                    製品の送料無料
                   </p>
                 </li>
                 <li className="flex items-start lg:col-span-1">
@@ -403,7 +405,7 @@ export default function product() {
                     </svg>
                   </div>
                   <p className="ml-3 text-sm text-gray-700">
-                    Member resources
+                    関税無料
                   </p>
                 </li>
                 <li className="flex items-start lg:col-span-1">
@@ -414,30 +416,20 @@ export default function product() {
                     </svg>
                   </div>
                   <p className="ml-3 text-sm text-gray-700">
-                    Entry to annual conference
+                    三年間の品質保証
                   </p>
                 </li>
-                <li className="flex items-start lg:col-span-1">
-                  <div className="flex-shrink-0">
-                    {/* Heroicon name: solid/check-circle */}
-                    <svg className="h-5 w-5 text-green-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <p className="ml-3 text-sm text-gray-700">
-                    Official member t-shirt
-                  </p>
-                </li>
+                {/*  */}
               </ul>
             </div>
           </div>
           <div className="py-8 px-6 text-center bg-gray-50 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
             <p className="text-lg leading-6 font-medium text-gray-900">
-              一度払えばずっとあなたのもの。。！
+              
             </p>
             <div className="mt-4 flex items-center justify-center text-5xl font-extrabold text-gray-900">
               <span>
-                160000
+                160,000
               </span>
               <span className="ml-3 text-xl font-medium text-gray-500">
                 ￥
@@ -445,7 +437,7 @@ export default function product() {
             </div>
             <p className="mt-4 text-sm">
               <a href="#" className="font-medium text-gray-500 underline">
-                Learn about our membership policy
+                製品ポリシーについて確認する
               </a>
             </p>
             <div className="mt-6">
@@ -455,14 +447,7 @@ export default function product() {
                 </a>
               </div>
             </div>
-            <div className="mt-4 text-sm">
-              <a href="#" className="font-medium text-gray-900">
-                Get a free sample
-                <span className="font-normal text-gray-500">
-                  (20MB)
-                </span>
-              </a>
-            </div>
+            
           </div>
         </div>
       </div>
