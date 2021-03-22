@@ -148,7 +148,7 @@ export default function product() {
     <div className="relative px-4 sm:px-6 lg:px-8">
       <div className="text-lg max-w-prose mx-auto">
         <h1>
-          <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">完璧な太陽光スペクトラム</span>
+          <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-black sm:text-4xl">完璧な太陽光スペクトラム</span>
         </h1>
         <p className="mt-8 text-xl text-gray-900 leading-8">白、赤色のLEDチップをさらに追加し、より自然な太陽光を実現。植物の光合成に不可欠な光エネルギーを、スムーズかつエコにお届けします。</p>
         <figure>
@@ -196,9 +196,9 @@ export default function product() {
     <div className="relative px-4 sm:px-6 lg:px-8">
       <div className="text-lg max-w-prose mx-auto">
         <h1>
-          <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">TOPレベルのハードウェア</span>
+          <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-black sm:text-4xl">TOPレベルのハードウェア</span>
         </h1>
-        <p className="mt-8 text-xl text-gray-500 leading-8">ハイクオリティーなのにとっても節約上手。それでもって長いライフスパンが売りのおすすめ品。安定のSAMSUNG LM301B、そして安心のMeanWell製ドライバーを使用。</p>
+        <p className="mt-8 text-xl text-gray-900 leading-8">ハイクオリティーなのにとっても節約上手。それでもって長いライフスパンが売りのおすすめ品。安定のSAMSUNG LM301B、そして安心のMeanWell製ドライバーを使用。</p>
         <figure>
           <img className=" w-900 h-900 rounded-lg shadow-lg " src="img/hardware.png" alt width={1310} height={873} />
           
@@ -244,9 +244,9 @@ export default function product() {
     <div className="relative px-4 sm:px-6 lg:px-8">
       <div className="text-lg max-w-prose mx-auto">
         <h1>
-          <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">最大収穫量に多大な影響</span>
+          <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-black sm:text-4xl">最大収穫量に多大な影響</span>
         </h1>
-        <p className="mt-8 text-xl text-gray-500 leading-8">最高品質SAMSUNG製LEDライトと数の相乗効果で、植物たちはこれまでになく健康を感じられることでしょう。しかもとっても長持ち。</p>
+        <p className="mt-8 text-xl text-gray-900 leading-8">最高品質SAMSUNG製LEDライトと数の相乗効果で、植物たちはこれまでになく健康を感じられることでしょう。しかもとっても長持ち。</p>
         <figure>
           <img className=" w-900 h-900 rounded-lg shadow-lg " src="img/sf2000hikaku.png" alt width={1310} height={873} />
           
@@ -336,9 +336,9 @@ export default function product() {
     <div className="relative px-4 sm:px-6 lg:px-8">
       <div className="text-lg max-w-prose mx-auto">
         <h1>
-          <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">デイジーチェーン</span>
+          <span className="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-black sm:text-4xl">デイジーチェーン</span>
         </h1>
-        <p className="mt-8 text-xl text-gray-500 leading-8">デイジーチェーン対応なので、最大で１２台まで接続、一括管理可能。部屋全体が植物農園というのも夢ではありません</p>
+        <p className="mt-8 text-xl text-gray-900 leading-8">デイジーチェーン対応なので、最大で１２台まで接続、一括管理可能。部屋全体が植物農園というのも夢ではありません</p>
         <figure>
           <img className=" w-900 h-900 rounded-lg shadow-lg " src="img/sf2000daizyblue.png" alt width={1310} height={873} />
           

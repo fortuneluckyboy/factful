@@ -142,9 +142,9 @@ require('@tailwindcss/aspect-ratio'),
         <div className="sm:text-center lg:text-left">
           <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
             <span className="block xl:inline">あなたは知っていますか？</span>
-            <span className="block text-green-00 xl:inline">世界のことを、</span>
+            <span className="block text-black xl:inline">世界の<span className="text-red-900">真実</span>を、</span>
             <span className="block text-black xl:inline">そして</span>
-            <span className="block text-red-800 xl:inline">日本のことを</span>
+            <span className="block text-black xl:inline">日本の<span className="text-green-700">真実</span>を。</span>
           </h1>
           {/* <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
             Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
@@ -327,7 +327,7 @@ require('@tailwindcss/aspect-ratio'),
               MARSHYDRO
             </h2>
             <p className="mt-4 text-lg text-gray-500">
-              多くの実績を持ち、安定のそして絶対の安心感を提供します。多種多様な植物に部屋のサイズに合わせたものまでご提供が可能です。
+              多くの実績を持ち、安定のそして絶対の安心感を提供します。多種多様な植物に部屋のサイズに合わせたものまでご提供が可能の植物用LEDライトメーカーです。
             </p>
             <div className="mt-6">
               <a href="#" className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yellow-500 hover:bg-indigo-700">
@@ -380,7 +380,7 @@ require('@tailwindcss/aspect-ratio'),
               SPIDERFARMER
             </h2>
             <p className="mt-4 text-lg text-gray-500">
-              新世代の訪れ。これまでの植物用LEDライトの定義を覆します。種類はMarshydroに比べると少ないですが、植物及び使い手様に新たな体験を提供します。
+              まさに新進気鋭、超新星のごとく現れました。これまでの植物用LEDライトの定義を覆します。種類はMarshydroに比べると少ないですが、植物及び使い手様に新たな体験を提供してくれる植物用LEDライトメーカーです。
             </p>
             <div className="mt-6">
               <a href="#" className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-red-500 hover:bg-indigo-700">
