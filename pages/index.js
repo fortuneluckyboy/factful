@@ -4,80 +4,24 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
 <Head>
         <title>FACTFUL</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-      <>
+      
       
    <header>
-     <div className="relative font-bold h-10 object-center text-left text-white rounded-xl bg-gray-900 pt-2 pl-6 mb-2">植物用LEDライト販売所　FACTFULL online
+     <div className="relative font-bold h-10 object-center text-center text-white rounded-xl bg-gray-900 pt-2 pl-6 mb-2">植物用LEDライト販売所　FACTFULL online ショップ
        
      </div>
    </header>
-  
-  
-{/* This example requires Tailwind CSS v2.0+ */}
-
 
 <>
 {/* This example requires Tailwind CSS v2.0+ */}
-{/* <div className="relative bg-gradient-to-r from-green-900 to-blue-900">
-  <div className="absolute inset-0">
-    <img className="w-full h-full object-cover" src="img/forest.jpg" alt />
-    <div className="absolute inset-0 bg-green-600" style={{mixBlendMode: 'multiply'}} aria-hidden="true" />
-  </div>
-  <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-  <h1 className="text-6xl text-left font-extrabold tracking-tight text-white sm:text-6xl lg:text-6xl">あなたはどれほどの真実をご存知ですか？</h1>
-
-    <p className="mt-6 text-xl text-indigo-100 max-w-3xl">我々が見えない真実をお伝えします。</p>
-  </div>
-</div> */}
-</>
-</>
-
-<>
-{/*
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-// ...
-require('@tailwindcss/aspect-ratio'),
-    ]
-  }
-  ```
-*/}
-{/* <div className="bg-white">
-  <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
-    <div className="bg-green-200 rounded-lg shadow-xl overflow-hidden lg:grid lg:grid-cols-2 lg:gap-4">
-      <div className="pt-10 pb-12 px-6 sm:pt-16 sm:px-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20">
-        <div className="lg:self-center">
-          <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
-            <span className="block">あなたはどれだけ知っていますか？</span>
-            <span className="block">見えない本当の真実を</span>
-          </h2>
-          <a href="#" className="mt-8 bg-white border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-indigo-600 hover:bg-indigo-50">Sign up for free</a>
-        </div>
-      </div>
-      <div className="-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1">
-        <img className="transform translate-x-6 translate-y-6 rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20" src="img/forest.jpg" alt="App screenshot" />
-      </div>
-    </div>
-  </div>
-</div> */}
-</>
-<>
-{/* This example requires Tailwind CSS v2.0+ */}
-<div className="relative bg-white overflow-hidden">
+<div className="relative  bg-white overflow-hidden">
   <div className="max-w-7xl mx-auto">
     <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
       <svg className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
