@@ -14,7 +14,7 @@ export default function Home() {
       
       
    <header>
-     <div className="relative font-bold h-10 object-center text-center text-white rounded-xl bg-gray-900 pt-2 pl-6 mb-2">植物用LEDライト販売所　FACTFULL online ショップ
+     <div className="relative font-bold h-10 object-center text-center text-white rounded-xl bg-gray-900 pt-2 pl-6 mb-2">植物用LEDライト販売所　FACTFULL onlineshop
        
      </div>
    </header>
@@ -464,6 +464,7 @@ export default function Home() {
     
   </div>
 </section>
+<br></br>
 <br></br>
 <div className="text-black text-3xl font-bold text-center">他の評価も確認する</div>
 </>
