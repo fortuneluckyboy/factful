@@ -104,7 +104,7 @@ export default function product() {
         </h1>
         <p className="mt-8 text-xl text-gray-500 leading-8">白、赤色のLEDチップをさらに追加し、より自然な太陽光を実現。植物の光合成に不可欠な光エネルギーを、スムーズかつエコにお届けします。</p> */}
         <figure>
-          <img className=" w-900 h-900 rounded-lg shadow-lg " src="img/sf2000led.png" alt width={1310} height={873} />
+          <img className=" w-900 h-900 rounded-lg shadow-lg " src="/img/sf2000led.png" alt width={1310} height={873} />
           
         </figure>
       </div>
@@ -152,7 +152,7 @@ export default function product() {
         </h1>
         <p className="mt-8 text-xl text-gray-900 leading-8">白、赤色のLEDチップをさらに追加し、より自然な太陽光を実現。植物の光合成に不可欠な光エネルギーを、スムーズかつエコにお届けします。</p>
         <figure>
-          <img className=" w-900 h-900 rounded-lg shadow-lg " src="img/sf2000-irrei.png" alt width={1310} height={873} />
+          <img className=" w-900 h-900 rounded-lg shadow-lg " src="/img/sf2000-irrei.png" alt width={1310} height={873} />
           
         </figure>
       </div>

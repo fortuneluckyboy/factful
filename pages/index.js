@@ -68,7 +68,7 @@ export default function Home() {
     </div>
   </div>
   <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-    <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="img/forest.jpg" alt />
+    <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="img/harvest.jpg" alt />
   </div>
 </div>
 </>
@@ -440,7 +440,7 @@ export default function Home() {
       <div className="hidden lg:block lg:flex-shrink-0">
         <img className="h-64 w-64 rounded-full xl:h-80 xl:w-80" src="img/cat.jpg" alt />
       </div>
-      <div className="relative lg:ml-10 rounded-lg bg-red-100 p-8">
+      <div className="relative lg:ml-10 rounded-lg ring-4 ring-red-100 p-8">
         <blockquote className="relative">
           <div className="text-2xl leading-9 font-medium text-gray-900">
             <p>
@@ -454,7 +454,7 @@ export default function Home() {
               </div>
               <div className="ml-4 lg:ml-0">
                 <div className="text-base font-medium text-gray-900">岡山大学</div>
-                <div className="text-base font-medium text-purple-600">CEO, Tuple</div>
+                <div className="text-base font-medium text-red-700">CEO, Tuple</div>
               </div>
             </div>
           </footer>
@@ -464,9 +464,7 @@ export default function Home() {
     
   </div>
 </section>
-<br></br>
-<br></br>
-<div className="text-black text-3xl font-bold text-center">他の評価も確認する</div>
+
 </>
 </>
   </div>
