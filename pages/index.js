@@ -14,14 +14,143 @@ export default function Home() {
       
       
    <header>
-     <div className="relative font-bold h-10 object-center text-center text-white rounded-xl bg-gray-900 pt-2 pl-6 mb-2">植物用LEDライト販売所　FACTFULL onlineshop
+     {/* <div className="relative font-bold h-10 object-center text-center text-white rounded-xl bg-gray-900 pt-2 pl-6 mb-2">植物用LEDライト販売所　FACTFULL onlineshop
        
-     </div>
+     </div> */}
    </header>
-
-<>
+   <>
 {/* This example requires Tailwind CSS v2.0+ */}
-<div className="relative  bg-white overflow-hidden">
+<div className="min-h-screen bg-white">
+  <nav className="bg-white border-b border-gray-200">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="flex justify-between h-16">
+        <div className="flex">
+          <div className="flex-shrink-0 flex items-center">
+            <img className="block lg:hidden h-16 w-auto" src="img/flower.png" alt="Factful" />
+            <img className="hidden lg:block h-16 w-auto" src="img/flower.png" alt="Factful" />
+          </div>
+          <div className="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
+            {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
+            <a href="#" className="border-green-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+              FACTFUL
+            </a>
+            <a href="#" className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+            　製品一覧
+            </a>
+            <a href="#" className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+              製品貸し出しについて
+            </a>
+            <a href="#" className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+              サポート
+            </a>
+          </div>
+        </div>
+        <div className="hidden sm:ml-6 sm:flex sm:items-center">
+          
+          {/* Profile dropdown */}
+          <div className="ml-3 relative">
+            
+            {/*
+        Dropdown menu, show/hide based on menu state.
+
+        Entering: "transition ease-out duration-200"
+          From: "transform opacity-0 scale-95"
+          To: "transform opacity-100 scale-100"
+        Leaving: "transition ease-in duration-75"
+          From: "transform opacity-100 scale-100"
+          To: "transform opacity-0 scale-95"
+      */}
+            {/* <div className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu">
+              <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">
+                Your Profile
+              </a>
+              <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">
+                Settings
+              </a>
+              <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">
+                Sign out
+              </a>
+            </div> */}
+          </div>
+        </div>
+        <div className="-mr-2 flex items-center sm:hidden">
+          {/* Mobile menu button */}
+          <button type="button" className="bg-white inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-controls="mobile-menu" aria-expanded="false">
+            <span className="sr-only">Open main menu</span>
+            {/*
+        Heroicon name: outline/menu
+
+        Menu open: "hidden", Menu closed: "block"
+      */}
+            <svg className="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            {/*
+        Heroicon name: outline/x
+
+        Menu open: "block", Menu closed: "hidden"
+      */}
+            <svg className="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    {/* Mobile menu, show/hide based on menu state. */}
+    <div className="sm:hidden" id="mobile-menu">
+      <div className="pt-2 pb-3 space-y-1">
+        {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800" */}
+        <a href="#" className="bg-indigo-50 border-green-500 text--700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
+          FACTFUL
+        </a>
+        <a href="#" className="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
+          製品一覧
+        </a>
+        <a href="#" className="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
+          製品貸し出しについて
+        </a>
+        <a href="#" className="border-transparent text-gray-600 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-800 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
+          サポート
+        </a>
+      </div>
+      {/* <div className="pt-4 pb-3 border-t border-gray-200">
+        <div className="flex items-center px-4">
+          <div className="flex-shrink-0">
+            <img className="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixqx=EqnZfs2epz&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt />
+          </div>
+          <div className="ml-3">
+            <div className="text-base font-medium text-gray-800">Tom Cook</div>
+            <div className="text-sm font-medium text-gray-500">tom@example.com</div>
+          </div>
+          <button className="ml-auto bg-white flex-shrink-0 p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+            <span className="sr-only">View notifications</span>
+            {/* Heroicon name: outline/bell */}
+            {/* <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+            </svg>
+          </button>
+        </div>
+        <div className="mt-3 space-y-1">
+          <a href="#" className="block px-4 py-2 text-base font-medium text-gray-500 hover:text-gray-800 hover:bg-gray-100">
+            Your Profile
+          </a>
+          <a href="#" className="block px-4 py-2 text-base font-medium text-gray-500 hover:text-gray-800 hover:bg-gray-100">
+            Settings
+          </a>
+          <a href="#" className="block px-4 py-2 text-base font-medium text-gray-500 hover:text-gray-800 hover:bg-gray-100">
+            Sign out
+          </a>
+        </div>
+      </div> */} 
+    </div>
+  </nav>
+  <div className="py-10">
+    <header>
+      
+    </header>
+    <main>
+    <div className="relative  bg-white overflow-hidden">
   <div className="max-w-7xl mx-auto">
     <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
       <svg className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
@@ -30,31 +159,15 @@ export default function Home() {
       <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
         <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
          
-          {/* <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
-            <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Product</a>
-            <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Features</a>
-            <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Marketplace</a>
-            <a href="#" className="font-medium text-gray-500 hover:text-gray-900">Company</a>
-            <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">Log in</a>
-          </div> */}
+          
         </nav>
       </div>
-      {/*
-  Mobile menu, show/hide based on menu open state.
-
-  Entering: "duration-150 ease-out"
-    From: "opacity-0 scale-95"
-    To: "opacity-100 scale-100"
-  Leaving: "duration-100 ease-in"
-    From: "opacity-100 scale-100"
-    To: "opacity-0 scale-95"
-*/}
       
       <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
         <div className="sm:text-center lg:text-left">
-          <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-            <span className="block xl:inline">あなたは知っていますか？</span>
-            <span className="block text-black xl:inline">世界の<span className="text-red-900">真実</span>を、</span>
+          <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-6xl md:text6xl">
+            <span className="block xl:inline">貴方はご存知ですか？</span>
+            <span className="block text-black xl:inline">世界の<span className="text-red-900">真実</span>を</span>
             <span className="block text-black xl:inline">そして</span>
             <span className="block text-black xl:inline">日本の<span className="text-green-700">真実</span>を。</span>
           </h1>
@@ -71,6 +184,13 @@ export default function Home() {
     <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="img/harvest.jpg" alt />
   </div>
 </div>
+    </main>
+  </div>
+</div>
+</>
+<>
+{/* This example requires Tailwind CSS v2.0+ */}
+
 </>
 <>
 {/* This example requires Tailwind CSS v2.0+ */}
@@ -153,7 +273,7 @@ export default function Home() {
       <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
         <div className="lg:col-start-2">
           <h3 className="text-indigo-600 text-2xl font-extrabold tracking-tight sm:text-3xl">
-            そこにみるは日本の将来
+            そこに見るは日本の将来
           </h3>
           <p className="mt-3 text-lg text-gray-900">
           我々日本では自給率が低く現在４割を切るほどしか自給できていません。つまり６割強を海外からの輸入に頼って生活しています。
@@ -227,19 +347,18 @@ export default function Home() {
       <div className="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
         <div>
           <div>
-            <span className="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
+            <span className="h-12 w-12 rounded-md flex items-center justify-center bg-green-600">
               {/* Heroicon name: outline/inbox */}
-              <svg className="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
-              </svg>
+              <img className="h-11 w-11 text-white" src="img/mars.png" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"/>
+                
             </span>
           </div>
           <div className="mt-6">
-            <h2 className="text-7xl font-extrabold tracking-tight text-gray-900">
+            <h2 className="text-7xl  font-extrabold tracking-tight text-gray-900">
               MARSHYDRO
             </h2>
             <p className="mt-4 text-lg text-gray-500">
-              多くの実績を持ち、安定のそして絶対の安心感を提供します。多種多様な植物に部屋のサイズに合わせたものまでご提供が可能の植物用LEDライトメーカーです。
+              多くの実績を持つ植物用LEDライトメーカーです。お客様には絶対の信頼性と、安心感を提供できることをお約束します。多種多様な植物、そしてさまざまな部屋のサイズに合わせたものまでご提供が可能の植物用LEDライトメーカーです。
             </p>
             <div className="mt-6">
               <a href="#" className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yellow-500 hover:bg-indigo-700">
@@ -282,9 +401,9 @@ export default function Home() {
           <div>
             <span className="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
               {/* Heroicon name: outline/sparkles */}
-              <svg className="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
-              </svg>
+              <img className="h-11 w-11 text-white" src="img/spider.png" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"/>
+                
+              
             </span>
           </div>
           <div className="mt-6">
@@ -315,7 +434,7 @@ export default function Home() {
 {/* This example requires Tailwind CSS v2.0+ */}
 
 
-<div className="bg-gradient-to-b from-white to-gray-100">
+<div className="bg-white">
   {/* Header */}
   <div className="relative pb-32 bg-gray-700">
     <div className="absolute inset-0">
@@ -323,8 +442,8 @@ export default function Home() {
       <div className="absolute inset-0 bg-white" style={{mixBlendMode: 'multiply'}} aria-hidden="true" />
     </div>
     <div className="relative text-white max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-    <p className="mt-6 text-red-500 max-w-3xl text-2xl pb-2">我々FACTFULが取扱う商品には共通点があります。</p>
-      <h1 className="text-4xl font-extrabold tracking-tight  md:text-5xl lg:text-6xl">植物が安心、快適に成長できる環境づくり</h1>
+    <p className="mt-6 text-red-500 text-center text-2xl pb-2">我々FACTFULが取扱う商品には共通点があります。</p>
+      <h1 className="text-4xl font-extrabold tracking-tight text-center md:text-5xl lg:text-6xl">植物が安心、快適に成長できる環境づくり</h1>
       
     </div>
   </div>
@@ -333,7 +452,7 @@ export default function Home() {
     <h2 className="sr-only" id="contact-heading">Contact us</h2>
     <div className="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
     <div className="pt-6">
-          <div className="flow-root bg-white rounded-lg px-6 pb-8">
+          <div className="flow-root bg-white rounded-lg ring-2 ring-gray-300 px-6 pb-8">
             <div className="-mt-6">
               <div>
                 <span className="inline-flex items-center justify-center p-3 bg-red-500 rounded-md shadow-lg">
@@ -351,7 +470,7 @@ export default function Home() {
           </div>
         </div>
         <div className="pt-6">
-          <div className="flow-root bg-white rounded-lg px-6 pb-8">
+          <div className="flow-root bg-white rounded-lg ring-2 ring-gray-300 px-6 pb-8">
             <div className="-mt-6">
               <div>
                 <span className="inline-flex items-center justify-center p-3 bg-red-500 rounded-md shadow-lg">
@@ -363,13 +482,13 @@ export default function Home() {
               </div>
               <h3 className="mt-8 text-lg font-bold text-gray-900 tracking-tight">植物の成長促進</h3>
               <p className="mt-5 text-base text-gray-500">
-                高品質LEDライトで安定、高速で植物の成長を促進。植物を観察するのが楽しくなります。
+                高品質LEDライトで安定、高速で植物の成長を促進。日々目に見えるスピードで植物が成長するため、植物観察がより楽しくなります。
               </p>
             </div>
           </div>
         </div>
         <div className="pt-6">
-          <div className="flow-root bg-white rounded-lg px-6 pb-8">
+          <div className="flow-root bg-white ring-2 ring-gray-300 rounded-lg px-6 pb-8">
             <div className="-mt-6">
               <div>
                 <span className="inline-flex items-center justify-center p-3 bg-red-500 rounded-md shadow-lg">
@@ -395,22 +514,92 @@ export default function Home() {
 
 
 </>
+<div className="relative bg-indigo-800 mb-2">
+  <div className="absolute inset-0">
+    <img className="w-full h-full object-cover" src="img/evolution.jpg" alt />
+    <div className="absolute inset-0 bg-gray-500" style={{mixBlendMode: 'multiply'}} aria-hidden="true" />
+  </div>
+  <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 text-center lg:px-8">
+  <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-blue-200 sm:text-4xl">
+        変化は怖いもの
+      </h2>
+      <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-50">
+      これまでの自分から別の自分へ変わるというのは怖いものです。しかしその変化の先にあるのはより時代に沿った『進化』です。そんな進化をお助けするために我々は独自のサービスを用意しています。
+      </p>
+      <br></br>
+      <p className="text-center pt-1 text-5xl  font-extrabold  text-yellow-200 text-white">ぜひ進化への一端を体感してみてください。</p>
+    <p className="mt-6 text-4xl text-white "></p>
+    {/* <Link href="/product"><a> <p className="mt-6 text-4xl text-white ">→製品一覧へ</p></a></Link> */}
+    {/* <Link href="/product3"><a> <p className="mt-6 text-4xl text-white ">→製品一覧へ</p></a></Link> */}
+  </div>
+</div>
 <>
 {/* This example requires Tailwind CSS v2.0+ */}
+<div className="relative bg-white">
+  <div className="relative bg-white shadow">
+    
+    {/*
+Mobile menu, show/hide based on mobile menu state.
 
+Entering: "duration-200 ease-out"
+  From: "opacity-0 scale-95"
+  To: "opacity-100 scale-100"
+Leaving: "duration-100 ease-in"
+  From: "opacity-100 scale-100"
+  To: "opacity-0 scale-95"
+    */}
+    <div className="absolute top-0 inset-x-0 z-10 p-2 transition transform origin-top-right md:hidden">
+      <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+        
+       
+      </div>
+    </div>
+  </div>
+  <main className="lg:relative">
+    <div className="mx-auto max-w-7xl w-full pt-16 pb-20 text-center lg:py-48 lg:text-left">
+      <div className="px-4 lg:w-1/2 sm:px-8 xl:pr-16">
+        <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
+          <span className="block xl:inline">研究者、開発機関向け</span>
+          <span className="block text-green-600 xl:inline">試用機の貸し出しサービス</span>
+        </h1>
+        <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
+          我々が取り扱っている製品の良さを実際に体験してもらうため、製品購入前に試用機の貸し出しを行っております。 製品のクオリティ、またお客様が使用を予定されている環境に合うか、検討のためにもぜひご利用ください。
+        
+        </p>
+        <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">もちろん一般の方でも、このサイトをみてご連絡いただいた方であれば喜んで貸し出しいたします。</p>
+        <p className="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">※数に限りがございます。ご注意ください。</p>
+        <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
+          <div className="rounded-md shadow">
+            <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-black bg-yellow-300 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
+              試してみる
+            </a>
+          </div>
+          {/* <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+            <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10">
+              Live demo
+            </a>
+          </div> */}
+        </div>
+      </div>
+    </div>
+    <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
+      <img className="absolute rounded-lg inset-0 w-full h-full object-cover" src="img/freetrialforuni.jpg" alt />
+    </div>
+  </main>
+</div>
 </>
 <>
 {/* This example requires Tailwind CSS v2.0+ */}
-<div className="relative bg-gradient-to-b from-white to-pink-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+<div className="relative pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
   <div className="absolute inset-0">
     <div className="bg-white h-1/3 sm:h-2/3" />
   </div>
   <div className="relative max-w-7xl mx-auto">
     <div className="text-center">
-      <h2 className="text-3xl tracking-tight font-extrabold text-blue-800 sm:text-4xl">
+      <h2 className="text-3xl tracking-tight font-extrabold text-indigo-500 sm:text-4xl">
         お客様からの声
       </h2>
-      <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
+      <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-900 sm:mt-4">
         研究機関、農家、大学、さまざまな分野で活躍するLEDライトですが、お客様からも多大な感想をいただいております。
       </p>
     </div>
@@ -438,9 +627,9 @@ export default function Home() {
     </svg>
     <div className="relative lg:flex lg:items-center">
       <div className="hidden lg:block lg:flex-shrink-0">
-        <img className="h-64 w-64 rounded-full xl:h-80 xl:w-80" src="img/cat.jpg" alt />
+        <img className="h-64 w-64 rounded-full xl:h-80 xl:w-80" src="img/catsle.jpg" alt />
       </div>
-      <div className="relative lg:ml-10 rounded-lg ring-4 ring-red-100 p-8">
+      <div className="relative lg:ml-10 rounded-lg ring-4 ring-green-500 p-8">
         <blockquote className="relative">
           <div className="text-2xl leading-9 font-medium text-gray-900">
             <p>
@@ -450,11 +639,11 @@ export default function Home() {
           <footer className="mt-8">
             <div className="flex">
               <div className="flex-shrink-0 lg:hidden">
-                <img className="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixqx=EqnZfs2epz&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt />
+                <img className="h-12 w-12 rounded-full" src="img/catsle.jpg" alt />
               </div>
               <div className="ml-4 lg:ml-0">
-                <div className="text-base font-medium text-gray-900">岡山大学</div>
-                <div className="text-base font-medium text-red-700">CEO, Tuple</div>
+                <div className="text-base font-medium text-gray-900">岡山大学農学部</div>
+                <div className="text-base font-medium text-black">Okayama University,department of agriculture </div>
               </div>
             </div>
           </footer>
@@ -478,7 +667,7 @@ export default function Home() {
       <div className="absolute inset-0 bg-white" style={{mixBlendMode: 'multiply'}} aria-hidden="true" />
     </div>
     <div className="relative text-gray-900 max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-    <p className="mt-6 max-w-3xl text-green-700 pb-2 text-xl ">お客様の下にストレスフルでお届け</p>
+    <p className="mt-6 max-w-3xl text-green-700 pb-2 text-xl ">試用機貸し出し意外にも、常にお客様への安心感を念頭に動いています。</p>
       <h1 className="text-4xl font-extrabold tracking-tight  md:text-5xl lg:text-6xl">他の会社にはない完全バックアップ体制</h1>
       
     </div>
