@@ -1,11 +1,11 @@
-// import Link from 'next/link';
-// const ProductLink = props => (
-//   <div>
+import Link from 'next/link';
+const ProductLink = props => (
+  <div>
     
-//       <Link href="/productbrand/[id]" as={`/productbrand/${props.id}`}>
-//       <a>{props.id}</a>
-//     </Link>
+      <Link href="/productbrand/[id]" as={`/productbrand/${props.id}`}>
+      <a>{props.id}</a>
+    </Link>
     
-//   </div>
-// );
-// export default ProductLink
+  </div>
+);
+export default ProductLink

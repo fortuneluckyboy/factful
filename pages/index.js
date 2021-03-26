@@ -18,6 +18,9 @@ export default function Home() {
      {/* <div className="relative font-bold h-10 object-center text-center text-white rounded-xl bg-gray-900 pt-2 pl-6 mb-2">植物用LEDライト販売所　FACTFULL onlineshop
        
      </div> */}
+     <Link href="/productbrand/sf2000">
+     <a>sf2000</a>
+     </Link>
    </header>
    
    <>
@@ -359,8 +362,9 @@ export default function Home() {
           </div>
           <div className="mt-6">
           
-            <h2 className="text-7xl  md:text-xl font-extrabold tracking-tight text-gray-900">
-              MARSHYDRO
+            
+            <h2 className="text-7xl font-extrabold tracking-tight text-gray-900">
+              MARS HYDRO
             </h2>
             <p className="mt-4 text-lg text-gray-500">
               多くの実績を持つ植物用LEDライトメーカーです。お客様には絶対の信頼性と、安心感を提供できることをお約束します。多種多様な植物、そしてさまざまな部屋のサイズに合わせたものまでご提供が可能の植物用LEDライトメーカーです。
@@ -413,15 +417,15 @@ export default function Home() {
           </div>
           <div className="mt-6">
             <h2 className="text-7xl font-extrabold tracking-tight text-gray-900">
-            SPIDERFARMER
+            SPIDER FARMER
             </h2>
             <p className="mt-4 text-lg text-gray-500">
               まさに新進気鋭、超新星のごとく現れました。これまでの植物用LEDライトの定義を覆します。種類はMarshydroに比べると少ないですが、植物及び使い手様に新たな体験を提供してくれる植物用LEDライトメーカーです。
             </p>
             <div className="mt-6">
               <div className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-red-500 hover:bg-indigo-700">
-              {/* <ProductLink id="SPIDERFARMER製品一覧" /> */}
-              SPIDERFARMER製品　一覧
+              <ProductLink id="SPIDERFARMER製品一覧" />
+              
               </div>
             </div>
           </div>
@@ -436,6 +440,7 @@ export default function Home() {
   </div>
 </div>
 </>
+
 <>
 {/* This example requires Tailwind CSS v2.0+ */}
 
@@ -684,7 +689,7 @@ Leaving: "duration-100 ease-in"
         <blockquote className="relative">
           <div className="text-2xl leading-9 font-medium text-gray-900">
             <p>
-              大学の研究用に購入しました。最初はどの製品がいいのかもまったくわかりませんでしたが、こちらの相談にも細かいところまで持っていただき、一台購入前に貸し出しいただいことでその製品に決めました
+              大学の研究用に購入しました。最初はどの製品がいいのかもまったくわかりませんでしたが、こちらの相談にも細かいところまでのっていただき、一台購入前に貸し出しいただいことでその製品に決めました
             </p>
           </div>
           <footer className="mt-8">
