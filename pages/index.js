@@ -420,7 +420,8 @@ export default function Home() {
             </p>
             <div className="mt-6">
               <div className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-red-500 hover:bg-indigo-700">
-              <ProductLink id="SPIDERFARMER製品一覧" />
+              {/* <ProductLink id="SPIDERFARMER製品一覧" /> */}
+              SPIDERFARMER製品　一覧
               </div>
             </div>
           </div>
