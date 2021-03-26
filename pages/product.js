@@ -29,7 +29,7 @@ export default function product() {
           <div className="relative text-base mx-auto max-w-prose lg:max-w-none">
             <figure>
               <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                <img className="rounded-lg shadow-lg object-cover object-center" src="img/sf2000top7.png" alt="Whitney leaning against a railing on a downtown street" width={1184} height={1376} />
+                <img className="rounded-lg shadow-lg object-cover object-center" src="img/sf2000top.png" alt="sf2000top" width={1184} height={1376} />
               </div>
               <figcaption className="mt-3 flex text-sm text-gray-500">
                 {/* Heroicon name: solid/camera */}
@@ -42,7 +42,7 @@ export default function product() {
         </div>
         <div className="mt-8 lg:mt-0">
           <div className="text-base max-w-prose mx-auto lg:max-w-none">
-            <p className="text-lg text-gray-500">本体サイズは65×30cm。でもこれ一台でなんと畳２/３分の範囲を照明カバーできちゃいます。小さすぎず、デカすぎずのミドルサイズ。加えて調光ノブ搭載なので、さまざまな植物、花に臨機応変に光量を調節可能。家庭菜園、屋内栽培をしているけど、もう一つ進んだものが欲しいという方におすすめです。</p>
+            <p className="text-lg text-gray-500">本体サイズは65×30cm。でもこれ一台で畳２/３分の範囲を照明カバーできます。小さすぎず、大きすぎずのミドルサイズです。加えて調光ノブ搭載機能なので、さまざまな植物、花に臨機応変に光量を調節可能。研究機関での利用を検討している方、大規模な屋内栽培を計画している方、どなたにでもおすすめの製品です。</p>
           </div>
           <br></br>
           <br></br>
@@ -152,7 +152,7 @@ export default function product() {
         </h1>
         <p className="mt-8 text-xl text-gray-900 leading-8">白、赤色のLEDチップをさらに追加し、より自然な太陽光を実現。植物の光合成に不可欠な光エネルギーを、スムーズかつエコにお届けします。</p>
         <figure>
-          <img className=" w-900 h-900 rounded-lg shadow-lg " src="/img/sf2000-irrei.png" alt width={1310} height={873} />
+          <img className=" w-900 h-900 rounded-lg shadow-lg " src="/img/irrei.png" alt="sf2000-ir" width={1310} height={873} />
           
         </figure>
       </div>
@@ -200,7 +200,7 @@ export default function product() {
         </h1>
         <p className="mt-8 text-xl text-gray-900 leading-8">ハイクオリティーなのにとっても節約上手。それでもって長いライフスパンが売りのおすすめ品。安定のSAMSUNG LM301B、そして安心のMeanWell製ドライバーを使用。</p>
         <figure>
-          <img className=" w-900 h-900 rounded-lg shadow-lg " src="img/hardware.png" alt width={1310} height={873} />
+          <img className=" w-900 h-900 rounded-lg shadow-lg " src="img/hardware.png" alt="hardware" width={1310} height={873} />
           
         </figure>
       </div>
@@ -248,7 +248,7 @@ export default function product() {
         </h1>
         <p className="mt-8 text-xl text-gray-900 leading-8">最高品質SAMSUNG製LEDライトと数の相乗効果で、植物たちはこれまでになく健康を感じられることでしょう。しかもとっても長持ち。</p>
         <figure>
-          <img className=" w-900 h-900 rounded-lg shadow-lg " src="img/sf2000hikaku.png" alt width={1310} height={873} />
+          <img className=" w-900 h-900 rounded-lg shadow-lg " src="img/compare.png" alt="compare" width={1310} height={873} />
           
         </figure>
       </div>
@@ -296,7 +296,7 @@ export default function product() {
         </h1>
         <p className="mt-8 text-xl text-gray-500 leading-8">耐水、耐湿設計も問題なし！またアルミニウム製ボディを使用することにより、吸放熱性にも特化。見てもよし、触ってもよしの洗練されたデザイン。</p>
         <figure>
-          <img className=" w-900 h-900 rounded-lg shadow-lg " src="img/sf2000antivulbluerei.png" alt width={1310} height={873} />
+          <img className=" w-900 h-900 rounded-lg shadow-lg " src="img/antivulblue.png" alt="water-proof" width={1310} height={873} />
           
         </figure>
       </div>
@@ -340,7 +340,7 @@ export default function product() {
         </h1>
         <p className="mt-8 text-xl text-gray-900 leading-8">デイジーチェーン対応なので、最大で１２台まで接続、一括管理可能。部屋全体が植物農園というのも夢ではありません</p>
         <figure>
-          <img className=" w-900 h-900 rounded-lg shadow-lg " src="img/sf2000daizyblue.png" alt width={1310} height={873} />
+          <img className=" w-900 h-900 rounded-lg shadow-lg " src="img/daizyblue.png" alt="daizychain" width={1310} height={873} />
           
         </figure>
       </div>

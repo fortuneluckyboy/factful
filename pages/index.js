@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link';
 import styles from '../styles/Home.module.css'
+import ProductLink from '../components/ProductLink';
 
 export default function Home() {
   return (
@@ -18,7 +19,9 @@ export default function Home() {
        
      </div> */}
    </header>
+   
    <>
+   
 {/* This example requires Tailwind CSS v2.0+ */}
 <div className="min-h-screen bg-white">
   <nav className="bg-white border-b border-gray-200">
@@ -26,8 +29,8 @@ export default function Home() {
       <div className="flex justify-between h-16">
         <div className="flex">
           <div className="flex-shrink-0 flex items-center">
-            <img className="block lg:hidden h-16 w-auto" src="img/flower.png" alt="Factful" />
-            <img className="hidden lg:block h-16 w-auto" src="img/flower.png" alt="Factful" />
+            <img className="block lg:hidden h-16 w-auto" src="img/flower.png" alt="flower" />
+            <img className="hidden lg:block h-16 w-auto" src="img/flower.png" alt="flower" />
           </div>
           <div className="hidden sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
             {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
@@ -181,7 +184,7 @@ export default function Home() {
     </div>
   </div>
   <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-    <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="img/harvest.jpg" alt />
+    <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="img/harvest.jpg" alt="harvest" />
   </div>
 </div>
     </main>
@@ -192,6 +195,7 @@ export default function Home() {
 {/* This example requires Tailwind CSS v2.0+ */}
 
 </>
+
 <>
 {/* This example requires Tailwind CSS v2.0+ */}
 <div className="py-16 bg-white  overflow-hidden lg:py-6">
@@ -221,7 +225,7 @@ export default function Home() {
             </defs>
             <rect width={784} height={404} fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
           </svg> */}
-          <img className="relative rounded-lg mx-auto" width={490} src="img/oranda.jpg" alt />
+          <img className="relative rounded-lg mx-auto" width={490} src="img/oranda.jpg" alt="oranda" />
         </div>
       </div>
     </div>
@@ -258,7 +262,7 @@ export default function Home() {
           </defs> */}
           <rect width={784} height={404} fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
         </svg>
-        <img className="relative rounded-lg mx-auto" width={490} src="img/greenhouse.jpg" alt />
+        <img className="relative rounded-lg mx-auto" width={490} src="img/greenhouse.jpg" alt="greenhouse" />
       </div>
     </div>
     {/* <svg className="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12" width={404} height={784} fill="none" viewBox="0 0 404 784" aria-hidden="true">
@@ -295,7 +299,7 @@ export default function Home() {
             </defs>
             <rect width={784} height={404} fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
           </svg> */}
-          <img className="relative rounded-lg mx-auto" width={490} src="img/mirai.jpg" alt />
+          <img className="relative rounded-lg mx-auto" width={490} src="img/mirai.jpg" alt="future" />
         </div>
       </div>
     </div>
@@ -354,7 +358,8 @@ export default function Home() {
             </span>
           </div>
           <div className="mt-6">
-            <h2 className="text-7xl  font-extrabold tracking-tight text-gray-900">
+          
+            <h2 className="text-7xl  md:text-xl font-extrabold tracking-tight text-gray-900">
               MARSHYDRO
             </h2>
             <p className="mt-4 text-lg text-gray-500">
@@ -362,7 +367,7 @@ export default function Home() {
             </p>
             <div className="mt-6">
               <a href="#" className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yellow-500 hover:bg-indigo-700">
-                MARSHYDRO 製品一覧へ
+                MARSHYDRO 製品一覧
               </a>
             </div>
           </div>
@@ -401,29 +406,29 @@ export default function Home() {
           <div>
             <span className="h-12 w-12 rounded-md flex items-center justify-center bg-indigo-600">
               {/* Heroicon name: outline/sparkles */}
-              <img className="h-11 w-11 text-white" src="img/spider.png" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"/>
+              <img className="h-11 w-11 text-white" src="img/slogo.png" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"/>
                 
               
             </span>
           </div>
           <div className="mt-6">
             <h2 className="text-7xl font-extrabold tracking-tight text-gray-900">
-              SPIDERFARMER
+            SPIDERFARMER
             </h2>
             <p className="mt-4 text-lg text-gray-500">
               まさに新進気鋭、超新星のごとく現れました。これまでの植物用LEDライトの定義を覆します。種類はMarshydroに比べると少ないですが、植物及び使い手様に新たな体験を提供してくれる植物用LEDライトメーカーです。
             </p>
             <div className="mt-6">
-              <a href="#" className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-red-500 hover:bg-indigo-700">
-                SPIDERFARMER　製品一覧へ
-              </a>
+              <div className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-red-500 hover:bg-indigo-700">
+              <ProductLink id="SPIDERFARMER製品一覧" />
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div className="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
         <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-          <img className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="img/shiyourei2.jpg" alt="" />
+          <img className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="img/sfshiyourei.jpg" alt="spiderfarmer" />
         </div>
       </div>
     </div>
@@ -511,9 +516,54 @@ export default function Home() {
     </div>
   </section>
 </div>
-
+<div className="relative max-w-7xl mx-auto">
+    <div className="text-center">
+      <h2 className="text-3xl tracking-tight font-extrabold text-indigo-700 sm:text-4xl">
+        日本でのスマート農法の効果は未知数
+      </h2>
+      <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-900 sm:mt-4">
+      日本よりも面積の小さい国でありながら日本以上の農作物益をあげてるオランダのスマート農法、そしてモノづくりの日本の力が合わされば鬼にに金棒のような気もしますが、実際のところなぜスマート農法が流行っていないのでしょうか？
+      </p>
+    </div>
+    </div>
+<div>
+  <p></p></div>
+<div className="py-16 bg-white  overflow-hidden lg:py-6">
+  <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
+    <div className="relative mb-16 mt-12 sm:mt-16 lg:mt-24">
+      <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
+        <div className="lg:col-start-2">
+          <h3 className="text-red-700  text-2xl font-extrabold tracking-tight sm:text-3xl">
+            まだまだ日本での認知度は低い
+          </h3>
+          <p className="mt-3 text-lg text-gray-900">
+          スマート農法は海外では注目されている農法ですが日本ではまだまだです。それどころかSNSやウェブ上では肯定的な意見比べると懐疑的、もしくは否定的な意見が多いのも事実です。
+        </p>
+          <p className="mt-3 text-lg text-gray-50">
+          </p>
+          <dl className="mt-10 space-y-10">
+            
+            
+          </dl>
+        </div>
+        <div className="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
+          {/* <svg className="absolute left-1/2 transform -translate-x-1/2 translate-y-16 lg:hidden" width={784} height={404} fill="none" viewBox="0 0 784 404" aria-hidden="true">
+            <defs>
+              <pattern id="e80155a9-dfde-425a-b5ea-1f6fadd20131" x={0} y={0} width={20} height={20} patternUnits="userSpaceOnUse">
+                <rect x={0} y={0} width={4} height={4} className="text-gray-200" fill="currentColor" />
+              </pattern>
+            </defs>
+            <rect width={784} height={404} fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
+          </svg> */}
+          <img className="relative rounded-lg mx-auto" width={490} src="img/house-plant.jpg" alt="planthouse" />
+        </div>
+      </div>
+    </div>
+    </div>
+   </div>
 
 </>
+
 <div className="relative bg-indigo-800 mb-2">
   <div className="absolute inset-0">
     <img className="w-full h-full object-cover" src="img/evolution.jpg" alt />
@@ -583,7 +633,7 @@ Leaving: "duration-100 ease-in"
       </div>
     </div>
     <div className="relative w-full h-64 sm:h-72 md:h-96 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full">
-      <img className="absolute rounded-lg inset-0 w-full h-full object-cover" src="img/freetrialforuni.jpg" alt />
+      <img className="absolute rounded-lg inset-0 w-full h-full object-cover" src="img/freetrialforuni.jpg" alt="freetrial" />
     </div>
   </main>
 </div>
@@ -596,7 +646,7 @@ Leaving: "duration-100 ease-in"
   </div>
   <div className="relative max-w-7xl mx-auto">
     <div className="text-center">
-      <h2 className="text-3xl tracking-tight font-extrabold text-indigo-500 sm:text-4xl">
+      <h2 className="text-3xl tracking-tight font-extrabold text-pink-500 sm:text-4xl">
         お客様からの声
       </h2>
       <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-900 sm:mt-4">
@@ -627,7 +677,7 @@ Leaving: "duration-100 ease-in"
     </svg>
     <div className="relative lg:flex lg:items-center">
       <div className="hidden lg:block lg:flex-shrink-0">
-        <img className="h-64 w-64 rounded-full xl:h-80 xl:w-80" src="img/catsle.jpg" alt />
+        <img className="h-64 w-64 rounded-full xl:h-80 xl:w-80" src="img/catsle.jpg" alt="okayamacatsle" />
       </div>
       <div className="relative lg:ml-10 rounded-lg ring-4 ring-green-500 p-8">
         <blockquote className="relative">
@@ -639,7 +689,7 @@ Leaving: "duration-100 ease-in"
           <footer className="mt-8">
             <div className="flex">
               <div className="flex-shrink-0 lg:hidden">
-                <img className="h-12 w-12 rounded-full" src="img/catsle.jpg" alt />
+                <img className="h-12 w-12 rounded-full" src="img/catsle.jpg" alt="okayamacatsle" />
               </div>
               <div className="ml-4 lg:ml-0">
                 <div className="text-base font-medium text-gray-900">岡山大学農学部</div>
@@ -659,15 +709,15 @@ Leaving: "duration-100 ease-in"
   </div>
 </div>
 </>
-<div className="bg-gradient-to-b from-white to-gray-900">
+<div className="bg-white">
   {/* Header */}
-  <div className="relative pb-32 bg-gray-700">
+  <div className="relative pb-32 bg-white">
     <div className="absolute inset-0">
-      <img className="w-full h-full object-cover" src="img/japanese3.jpg" alt />
+      <img className="w-full h-full object-cover" src="img/japanese3.jpg" alt="japanese" />
       <div className="absolute inset-0 bg-white" style={{mixBlendMode: 'multiply'}} aria-hidden="true" />
     </div>
     <div className="relative text-gray-900 max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-    <p className="mt-6 max-w-3xl text-green-700 pb-2 text-xl ">試用機貸し出し意外にも、常にお客様への安心感を念頭に動いています。</p>
+    <p className="mt-6 max-w-4xl text-pink-500 pb-2 text-2xl ">試用機貸し出し意外にも、常にお客様への安心感を念頭に動いています。</p>
       <h1 className="text-4xl font-extrabold tracking-tight  md:text-5xl lg:text-6xl">他の会社にはない完全バックアップ体制</h1>
       
     </div>
@@ -677,10 +727,10 @@ Leaving: "duration-100 ease-in"
     <h2 className="sr-only" id="contact-heading">Contact us</h2>
     <div className="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
     <div className="pt-6">
-          <div className="flow-root bg-white rounded-lg px-6 pb-8">
+          <div className="flow-root bg-white rounded-lg ring-2 ring-gray-300 px-6 pb-8">
             <div className="-mt-6">
               <div>
-                <span className="inline-flex items-center justify-center p-3 bg-green-500 rounded-md shadow-lg">
+                <span className="inline-flex items-center justify-center p-3 bg-green-500  rounded-md shadow-lg">
                   {/* Heroicon name: outline/shield-check */}
                   <svg className="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -695,7 +745,7 @@ Leaving: "duration-100 ease-in"
           </div>
         </div>
         <div className="pt-6">
-          <div className="flow-root bg-white rounded-lg px-6 pb-8">
+          <div className="flow-root bg-white rounded-lg ring-2 ring-gray-300 px-6 pb-8">
             <div className="-mt-6">
               <div>
                 <span className="inline-flex items-center justify-center p-3 bg-green-500 rounded-md shadow-lg">
@@ -714,7 +764,7 @@ Leaving: "duration-100 ease-in"
           </div>
         </div>
         <div className="pt-6">
-          <div className="flow-root bg-white rounded-lg px-6 pb-8">
+          <div className="flow-root bg-white rounded-lg ring-2 ring-gray-300 px-6 pb-8">
             <div className="-mt-6">
               <div>
                 <span className="inline-flex items-center justify-center p-3 bg-green-500 rounded-md shadow-lg">
@@ -736,19 +786,29 @@ Leaving: "duration-100 ease-in"
     </div>
   </section>
 </div>
-
+<div className="relative max-w-7xl mx-auto mb-20">
+    <div className="text-center">
+      <h2 className="text-3xl tracking-tight font-extrabold text-yellow-600 sm:text-4xl">
+        お客様が楽しく植物を栽培できること
+      </h2>
+      <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-900 sm:mt-4">
+      植物用ライトを通じてお客様が笑顔になり、植物の成長を楽しんでいただくことが我々にとっても最高の喜びです。そのために我々は存在します。
+      </p>
+    </div>
+    </div>
+<div></div>
 <>
 {/* This example requires Tailwind CSS v2.0+ */}
 <div className="bg-gradient-to-b from-white to-gray-100">
   {/* Header */}
   <div className="relative pb-32 bg-gray-700">
     <div className="absolute inset-0">
-      <img className="w-full h-full object-cover" src="img/support2.jpg" alt />
+      <img className="w-full h-full object-cover" src="img/support2.jpg" alt="support" />
       <div className="absolute inset-0 bg-gray-300" style={{mixBlendMode: 'multiply'}} aria-hidden="true" />
     </div>
     <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
-      <h1 className="text-4xl font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">サポート</h1>
-      <p className="mt-6 max-w-3xl text-xl text-gray-300">製品購入にあたってのご相談、不具合等おとい合わせいただけます。</p>
+      <h1 className="text-4xl text-yellow-300 font-extrabold tracking-tight text-white md:text-5xl lg:text-6xl">サポート</h1>
+      <p className="mt-6 max-w-3xl text-xl text-yellow-50">製品購入にあたってのご相談、不具合等、なんでもお問い合わせください。スタッフが共に解決します</p>
     </div>
   </div>
   {/* Overlapping cards */}
@@ -757,7 +817,7 @@ Leaving: "duration-100 ease-in"
     <div className="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
       <div className="bg-white rounded-2xl shadow-xl">
         <div className="relative pt-16 px-6 pb-8 md:px-8">
-          <div className="absolute top-0 p-5 inline-block bg-gray-500 rounded-xl shadow-lg transform -translate-y-1/2">
+          <div className="absolute top-0 p-5 inline-block bg-yellow-400 rounded-xl shadow-lg transform -translate-y-1/2">
             {/* Heroicon name: outline/phone */}
             <svg className="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -772,7 +832,7 @@ Leaving: "duration-100 ease-in"
       </div>
       <div className="bg-white rounded-2xl shadow-xl">
         <div className="relative pt-16 px-6 pb-8 md:px-8">
-          <div className="absolute top-0 p-5 inline-block bg-gray-500 rounded-xl shadow-lg transform -translate-y-1/2">
+          <div className="absolute top-0 p-5 inline-block bg-yellow-400 rounded-xl shadow-lg transform -translate-y-1/2">
             {/* Heroicon name: outline/support */}
             <svg className="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
