@@ -18,9 +18,7 @@ export default function Home() {
      {/* <div className="relative font-bold h-10 object-center text-center text-white rounded-xl bg-gray-900 pt-2 pl-6 mb-2">植物用LEDライト販売所　FACTFULL onlineshop
        
      </div> */}
-     <Link href="/productbrand/sf2000">
-     <a>sf2000</a>
-     </Link>
+     
    </header>
    
    <>
@@ -371,7 +369,7 @@ export default function Home() {
             </p>
             <div className="mt-6">
               <a href="#" className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-yellow-500 hover:bg-indigo-700">
-                MARSHYDRO 製品一覧
+              <ProductLink id="MARSHYDRO 製品一覧"/>
               </a>
             </div>
           </div>
@@ -424,7 +422,7 @@ export default function Home() {
             </p>
             <div className="mt-6">
               <div className="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-red-500 hover:bg-indigo-700">
-              <ProductLink id="SPIDERFARMER製品一覧" />
+              <Link href="/product"><a>SPIDERFARMER製品一覧</a></Link>
               
               </div>
             </div>
